@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCXP</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <section class="boxCcxpLogo">
+    <img src="./images/ccxp_logo.svg" alt="CCXP Logo">
+  </section>
+  <header>
+    <!-- Bloco 1 - Texto -->
+    <div class="boxInformation">
+      <h1>REVIVA O ÉPICO</h1>
+      <h2>DE 01 A 04 DE DEZEMBRO</h2>
+      <P>
+        Você consegue sentir? É aquela sensação de
+        finalmente poder falar em voz alta: "estamos 
+        em casa". Sim, em dezembro de 2022, teremos 
+        a volta da CCXP física. Mas não será qualquer 
+        CCXP, vai ser a maior de todos os tempos. 
+        Prepare-se para visitar seus universos favoritos,
+        explorar o Artists' Valley, se emocionar nos 
+        auditórios e encontrar aventuras épicas a cada 
+        passo pelos nossos corredores.
+      </P>
+    </div>
+    <!-- Bloco 2 - CountDown | Video-->
+    <div class="boxCountDownAndVideo">
+      <!-- CountDown-->
+      <div class="timer boxGridCountDown">
+        <div class = "h1CountDown">
+          <h1  id="dia">00</h1>
+          <p>D</p>
+        </div>
+        <div class = "h1CountDown">
+          <h1  id="hora">00</h1>
+          <p>H</p>
+        </div>
+        <div class = "h1CountDown">
+          <h1 id="minuto">00</h1>
+          <p>M</p>
+        </div>
+        <div class = "h1CountDown">
+          <h1 id="segundo">00</h1>
+          <p>S</p>
+        </div>
+      </div>  
+      <!-- Video -->
+      <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+      <video autoplay controls loop>
+        <source src="./video/Arlequina.mp4" type="video/mp4">
+      </video>
+    </div>
+  </header>
+  <!-- Bloco 3 - Ingressos | Button -->
+  <section class="boxIngressoBotao">
+    <div class="boxIngresso">
+      <h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
+      <div class="imgGridRowIngresso">
+        <img class="ingresso igressoRoxoPositionAbsolute" src="./images/ingresso_roxo.svg" alt="Ingresso Roxo">
+        <img class="ingresso igressoRosaPositionAbsolute" src="./images/ingresso_rosa.svg" alt="Ingresso Rosa">
+        <img class="ingresso igressoAmareloPositionAbsolute" src="./images/ingresso_amarelo.svg" alt="Ingresso Amarelo">
+        <img class="ingresso igressoVerdePositionAbsolute" src="./images/ingresso_verde.svg" alt="Ingresso Verde">
+      </div>
+    </div>
+    <div>
+      <button type="button">GARANTA O SEU!</button>
+    </div>
+  </section>
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

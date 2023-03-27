@@ -1,0 +1,701 @@
+body{
+  margin: 0 3% 0 3%;
+  padding: 0;
+  color: white;
+  background-color: #000;
+}
+
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+.boxCcxpLogo{
+  height: 91px;
+  background: #FFD900;
+  padding: 27px 0 0 58px;
+}
+
+header{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.boxInformation{
+  padding: 0px 68px 92px 58px;
+  box-sizing: border-box;
+  width: 802px;
+  height: 694px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #514988;
+}
+
+      .boxInformation h1{
+        color: #F3C61F;
+        font-size: 70px;
+        line-height: 85px;
+        margin-bottom: 0;
+      }
+
+      .boxInformation h2{
+        margin: 40px 0 35px 0;
+        animation-name: brilho;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+
+      .boxInformation p{
+        font-size: 29px;
+        line-height: 37px;
+        font-weight: 100;
+        font-style: normal;
+        text-align: center;
+        animation-name: brilho;
+        animation-duration: 6s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes brilho{
+        0%{color: white;7}
+        90%{color: #fcdbe9;}
+        100%{color: white;}
+      }
+
+.boxGridCountDown{
+  display: grid;
+  grid-auto-flow: column;
+  color: #514988;
+
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 85px;
+  margin-bottom: 15px;
+}
+
+    .h1CountDown{ 
+      display: flex;
+      font-size: 28px;
+      align-items: center;
+    }
+
+    .h1CountDown p{
+      font-size: 50px;
+      margin-left: 3%;
+    }
+
+    .boxCountDownAndVideo h2{
+      color: #E33881;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 36px;
+      margin-top: -50px;
+    }
+
+    video{
+      width: 880px;
+      height: 510px;
+    }
+
+.boxIngressoBotao{
+  display: grid;
+  grid-auto-flow: column;
+  margin-bottom: 150px;
+}
+
+    .boxIngressoBotao h2{
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 33px;
+      color: #F3C61F;
+      margin-left: 2%;
+    }
+
+    .ingresso{
+      width: 204px;
+      height: 204px;
+      left: 81px;
+    }
+
+    .ingresso:hover{
+      opacity: 0.9;
+      cursor: pointer;
+    }
+
+button{
+  margin: 115px 0 0 107px;
+  margin-top: 115px;
+  background: #514988;
+  border-radius: 20px;
+  width: 596px;
+  height: 148px;
+  color: #fff;
+  font-size: 42px;
+  line-height: 51px;
+  cursor: pointer;
+  transition: ease-in-out 500ms;
+  border: 0;
+}   
+
+    button:hover{
+      background: #514988c9;
+    }
+    button:active{
+      background: #51498894;
+    }
+
+@media only screen and (min-width: 200px) and (max-width: 1662px){
+
+  header{
+    display: grid;
+    grid-auto-flow: column;
+  }
+  
+  .boxInformation{
+    padding: 0px 68px 92px 58px;
+    box-sizing: border-box;
+    width: 602px;
+    height: 894px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #514988;
+  }
+  
+        .boxInformation h1{
+          text-align: center;
+          color: #F3C61F;
+          font-size: 70px;
+          line-height: 85px;
+          margin-bottom: 0;
+        }
+  
+        .boxInformation h2{
+          margin: 40px 0 35px 0;
+        }
+  
+        .boxInformation p{
+          font-size: 29px;
+          line-height: 37px;
+          font-weight: 100;
+          font-style: normal;
+          text-align: center;
+        }
+  
+  .boxGridCountDown{
+    display: grid;
+    grid-auto-flow: column;
+    color: #514988;
+    margin-top: -45px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 85px;
+    margin-bottom: 15px;
+  }
+  
+  .h1CountDown{ 
+    display: flex;
+    font-size: 28px;
+    align-items: center;
+  }
+  
+  .h1CountDown p{
+    font-size: 50px;
+    margin-left: 3%;
+  }
+  
+  .boxCountDownAndVideo h2{
+    color: #E33881;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: -60px;
+  }
+  
+  video{
+    margin-top: -80px;
+    width: 680px;
+    height: 510px;
+  }
+  
+  .boxIngressoBotao{
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 60px;
+  }
+  
+      .boxIngressoBotao h2{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        color: #F3C61F;
+        margin-left: 3%;
+        margin-top: -100px;
+      }
+      
+      .boxIngresso{
+        width: 51%;
+        height: 210px;
+        position: absolute;
+        margin-left: 45%;
+        margin-top: -210px;
+        box-sizing: border-box;
+      }
+
+      .ingresso{
+        margin-top: -50px;
+        margin-left: 5%;
+        width: 104px;
+        height: 204px;
+        left: 81px;
+      }
+  
+  button{
+    position: absolute;
+    margin: -115px 0 0 53%;
+    background: #514988;
+    border-radius: 20px;
+    width: 30%;
+    height: 120px;
+    color: #fff;
+    font-size: 28px;
+    line-height: 51px;
+    cursor: pointer;
+    transition: ease-in-out 500ms;
+    border: 0;
+  }   
+  
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1326px){
+  body{
+    margin: 0 1% 0 1%;
+    padding: 0;
+    color: white;
+    background-color: #000;
+  }
+  
+  html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+  }
+  
+  .boxCcxpLogo{
+    height: 91px;
+    max-width: 100%;
+    background: #FFD900;
+    padding: 27px 0 0 58px;
+  }
+  
+  header{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+  }
+  
+  .boxInformation{
+    padding: 0px 5% 92px 5%px;
+    width:100%;
+    height: 694px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #514988;
+  }
+  
+        .boxInformation h1{
+          color: #F3C61F;
+          font-size: 70px;
+          line-height: 85px;
+          margin-bottom: 0;
+        }
+  
+        .boxInformation h2{
+          margin: 40px 0 35px 0;
+        }
+  
+        .boxInformation p{
+          font-size: 29px;
+          line-height: 37px;
+          font-weight: 100;
+          font-style: normal;
+          text-align: center;
+        }
+  
+  .boxGridCountDown{
+    display: grid;
+    grid-auto-flow: column;
+    color: #F3C61F;
+  
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 85px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+  }
+  
+  .h1CountDown{ 
+    display: flex;
+    font-size: 28px;
+    align-items: center;
+  }
+  
+  .h1CountDown p{
+    font-size: 50px;
+    margin-left: 3%;
+  }
+  
+  .boxCountDownAndVideo h2{
+    text-align: center;
+    color: #E33881;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: -50px;
+  }
+  
+  video{
+    margin-top: -20px;
+    width: 100%;
+    height: 610px;
+  }
+  
+  .boxIngressoBotao{
+    display: grid;
+    grid-auto-flow: row;
+    margin: 320px 0 350px -45%;
+    padding: 0 13% 0 13%;
+  }
+  
+      .boxIngressoBotao h2{
+        width: 190%;
+        text-align: center;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 33px;
+        color: #F3C61F;
+        margin-left: -18%;
+      }
+ 
+      .ingresso{
+        margin-top: 30px;
+        margin-left: -12%;
+        width: 204px;
+        height: 204px;
+        left: 0px;
+      }
+
+      .imgGridRowIngresso{
+        display: grid;
+        grid-auto-flow: column;
+      }
+  
+  button{
+    margin: 115px 0 0px 53%;
+    background: #514988;
+    border-radius: 20px;
+    width: 596px;
+    height: 148px;
+    color: #fff;
+    font-size: 42px;
+    line-height: 51px;
+    cursor: pointer;
+    transition: ease-in-out 500ms;
+    border: 0;
+  }   
+  
+  button:hover{
+    background: #514988c9;
+  }
+  button:active{
+    background: #51498894;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 937px){
+  
+  header{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+  }
+  
+  .boxInformation{
+    padding: 0px 5% 92px 5%px;
+    width:100%;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #514988;
+  }
+  
+        .boxInformation h1{
+          color: #F3C61F;
+          font-size: 50px;
+          line-height: 85px;
+          margin-bottom: 0;
+        }
+  
+        .boxInformation h2{
+          margin: 40px 0 35px 0;
+          font-size: 25px;
+        }
+  
+        .boxInformation p{
+          font-size: 25px;
+          line-height: 37px;
+          font-weight: 400;
+          font-style: normal;
+          text-align: center;
+        }
+  
+  .boxGridCountDown{
+    display: grid;
+    grid-auto-flow: column;
+    color: #F3C61F;
+  
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 85px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+  }
+  
+        .h1CountDown{ 
+          display: flex;
+          font-size: 28px;
+          align-items: center;
+        }
+        
+        .h1CountDown p{
+          font-size: 50px;
+          margin-left: 3%;
+        }
+        
+        .boxCountDownAndVideo h2{
+          text-align: center;
+          color: #E33881;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 36px;
+          margin-top: -50px;
+        }
+        
+        video{
+          margin-top: -50px;
+          width: 100%;
+          height: 550px;
+        }
+        
+  .boxIngressoBotao{
+    width: 50%;
+    display: grid;
+    grid-auto-flow: column;
+    margin: 320px 0 350px -45%;
+    padding: 0 8% 0 8%;
+  }
+  
+      .boxIngressoBotao h2{
+        width: 190%;
+        text-align: center;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        color: #F3C61F;
+        margin-left: -15%;
+      }
+
+      .imgGridRowIngresso{
+        display: grid;
+        grid-auto-flow: column;  
+      }
+      
+      .ingresso{
+        margin-top: 30px;
+        margin-left: -12%;
+        width: 150px;
+        height: 204px;
+        left: 0px;
+      }
+  
+  button{
+    margin: 115px 0 0px 52%;
+    background: #514988;
+    border-radius: 20px;
+    width: 510px;
+    height: 118px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 51px;
+    cursor: pointer;
+    transition: ease-in-out 500ms;
+    border: 0;
+  }   
+  
+  button:hover{
+    background: #514988c9;
+  }
+  button:active{
+    background: #51498894;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 648px){
+  
+  header{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+  }
+  
+  .boxInformation{
+    padding: 0px 5% 92px 5%;
+    width:100%;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #514988;
+    margin-bottom: 30px;
+  }
+  
+        .boxInformation h1{
+          color: #F3C61F;
+          font-size: 20px;
+          line-height: 48px;
+          margin-bottom: 0;
+        }
+  
+        .boxInformation h2{
+          margin: 40px 0 35px 0;
+          font-size: 22px;
+        }
+  
+        .boxInformation p{
+          width: 400px;
+          text-align: justify;
+          font-size: 19px;
+          line-height: 27px;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+
+  
+  .boxGridCountDown{
+    display: grid;
+    grid-auto-flow: column;
+    color: #F3C61F;
+  
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 85px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+  }
+  
+        .h1CountDown{ 
+          display: flex;
+          font-size: 20px;
+          align-items: center;
+        }
+        
+        .h1CountDown p{
+          font-size: 27px;
+          margin-left: 3%;
+        }
+        
+        .boxCountDownAndVideo h2{
+          text-align: center;
+          color: #E33881;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 28px;
+          margin-top: -50px;
+        }
+        
+        video{
+          margin-top: -50px;
+          width: 100%;
+          height: 400px;
+        }
+        
+  .boxIngressoBotao{
+    width: 0%;
+    display: grid;
+    grid-auto-flow: column;
+    margin: 320px 0 350px -45%;
+    padding: 0 8% 0 8%;
+  }
+  
+      .boxIngressoBotao h2{
+        width: 190%;
+        text-align: center;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        color: #F3C61F;
+        margin-left: -15%;
+      }
+
+      .imgGridRowIngresso{
+        display: grid;
+        grid-auto-flow: column;  
+      }
+      
+      .ingresso{
+        margin-top: 30px;
+        margin-left: 50%;
+        width: 150px;
+        height: 204px;
+        left: 0px;
+      }
+
+      .igressoRoxoPositionAbsolute{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 74px;
+      }
+
+      .igressoRosaPositionAbsolute{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 225px;
+      }
+
+      .igressoAmareloPositionAbsolute{
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 74px;
+      }
+      .igressoVerdePositionAbsolute{
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 225px;
+      }
+  
+  button{
+    margin: 185px 0 0px 42%;
+    background: #514988;
+    border-radius: 20px;
+    width: 440px;
+    height: 98px;
+    color: #fff;
+    font-size: 26px;
+    line-height: 34px;
+    cursor: pointer;
+    transition: ease-in-out 500ms;
+    border: 0;
+  }   
+  
+  button:hover{
+    background: #514988c9;
+  }
+  button:active{
+    background: #51498894;
+  }
+}
